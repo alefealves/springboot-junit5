@@ -13,7 +13,7 @@ public class Loan {
     }
 
     public boolean isConsigmentLoanAvailable(){
-        return customer.isIncomeEqualOrGreatThan(5000.00);
+        return customer.isIncomeEqualOrGreaterThan(5000.00);
     }
 
     public boolean isGuaranteedLoanAvailable() {

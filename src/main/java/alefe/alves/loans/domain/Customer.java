@@ -19,7 +19,7 @@ public class Customer {
         return income <= v;
     }
 
-    public boolean isIncomeEqualOrGreatThan(double v) {
+    public boolean isIncomeEqualOrGreaterThan(double v) {
         return income >= v;
     }
 
